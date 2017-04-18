@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D40E14A72DAA5CA6B484A02 /* DVCUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D40E4A0683AB128C731A9F3 /* DVCUtil.m */; };
 		6945AB611EA4DAAA00AA3EA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6945AB601EA4DAAA00AA3EA1 /* main.m */; };
 		6945AB641EA4DAAA00AA3EA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6945AB631EA4DAAA00AA3EA1 /* AppDelegate.m */; };
 		6945AB671EA4DAAA00AA3EA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6945AB661EA4DAAA00AA3EA1 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D40E31CF49946E2F6FF2D59 /* DVCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVCUtil.h; sourceTree = "<group>"; };
+		3D40E4A0683AB128C731A9F3 /* DVCUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVCUtil.m; sourceTree = "<group>"; };
 		6945AB5C1EA4DAAA00AA3EA1 /* DVCUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVCUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6945AB601EA4DAAA00AA3EA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6945AB621EA4DAAA00AA3EA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				6945AB6D1EA4DAAA00AA3EA1 /* LaunchScreen.storyboard */,
 				6945AB701EA4DAAA00AA3EA1 /* Info.plist */,
 				6945AB5F1EA4DAAA00AA3EA1 /* Supporting Files */,
+				3D40E4A0683AB128C731A9F3 /* DVCUtil.m */,
+				3D40E31CF49946E2F6FF2D59 /* DVCUtil.h */,
 			);
 			path = DVCUtils;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 				6945AB671EA4DAAA00AA3EA1 /* ViewController.m in Sources */,
 				6945AB641EA4DAAA00AA3EA1 /* AppDelegate.m in Sources */,
 				6945AB611EA4DAAA00AA3EA1 /* main.m in Sources */,
+				3D40E14A72DAA5CA6B484A02 /* DVCUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
